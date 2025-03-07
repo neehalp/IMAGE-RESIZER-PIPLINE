@@ -28,8 +28,6 @@ Ensure you have the following installed:
    git clone https://github.com/your-username/image-resizer-pipeline.git
    cd image-resizer-pipeline
 
-![image](https://user-images.githubusercontent.com/19708705/228999047-c28dfcb6-8832-4c36-82c9-0dfe0162fd0e.png)
-
 ## For step-by-step guidelines read the following:
 This project implements how to build an event-driven image processing pipeline using AWS services like S3, SQS, Lambda, and CloudWatch. It provides a step-by-step guide for creating S3 buckets, an SQS queue, configuring access policies, creating IAM policies, setting up a Lambda execution role, configuring a Lambda function, and testing the image resizing process.
 
