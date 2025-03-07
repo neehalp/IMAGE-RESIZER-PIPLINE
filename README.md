@@ -1,9 +1,36 @@
 #  Image Resizer Pipeline
-## Building an Event-Driven Image Resizer Using AWS S3, SQS and Lambda : 
+
+This project is an AWS Lambda-based image resizer that processes images uploaded to an S3 bucket and generates resized versions based on predefined dimensions. It integrates with AWS services such as S3, SQS, and CloudWatch for event-driven processing and monitoring.
 
 ![image](https://user-images.githubusercontent.com/19708705/228999047-c28dfcb6-8832-4c36-82c9-0dfe0162fd0e.png)
 
-## For step-by-step guidelines read the following article:
+## Features
+
+- Automatically resizes images uploaded to an S3 bucket.
+- Supports predefined sizes for cover, profile, and post images.
+- Uses AWS Lambda for serverless execution.
+- Integrates with AWS S3 and SQS for event-driven processing.
+- Logs processing events to AWS CloudWatch.
+
+## Installation & Setup
+
+### Prerequisites
+
+Ensure you have the following installed:
+- Python (>=3.7)
+- AWS CLI configured with appropriate permissions.
+- `boto3` and `Pillow` libraries installed.
+
+### Steps
+
+1. **Clone this repository**:
+   ```sh
+   git clone https://github.com/your-username/image-resizer-pipeline.git
+   cd image-resizer-pipeline
+
+![image](https://user-images.githubusercontent.com/19708705/228999047-c28dfcb6-8832-4c36-82c9-0dfe0162fd0e.png)
+
+## For step-by-step guidelines read the following:
 This project implements how to build an event-driven image processing pipeline using AWS services like S3, SQS, Lambda, and CloudWatch. It provides a step-by-step guide for creating S3 buckets, an SQS queue, configuring access policies, creating IAM policies, setting up a Lambda execution role, configuring a Lambda function, and testing the image resizing process.
 
 Facts
